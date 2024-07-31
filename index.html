@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 김세영 - 현대자동차 반응형 </title>
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.0/css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="./js/casper.js"></script>
+</head>
+
+<body>
+    <!-- #wrap>header+nav+search-container+section -->
+    <div id="wrap"> 
+        <header> 
+            <h1><i class="fa-solid fa-garage-car" style="color: #ffffff;"></i>
+               
+                <span>CASPER</span>
+            </h1>
+            <address>
+                2024 CASPER <br> ALL RIGHT RESERVED.
+            </address>
+        </header>
+        <nav>
+            <!-- 편지봉투,검색아이콘 -->
+            <!-- ul>li>a>i.fas.fa-envelop -->
+            <ul>
+                <li><a href="#">
+                    <i class="fas fa-envelope"></i>
+                </a></li>
+                <li><a href="#">
+                    <i class="fas fa-search" id="searchButton"></i>
+                </a></li>
+            </ul>
+        </nav>
+        <div id="searchContainer" class="search-container">
+            <div> 
+                <input type="search" placeholder="검색어를 입력하세요">
+                <!-- i.fa-regular.fa-magnifying-glass -->
+                <i class="fa-regular fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <section>
+            <h2 class="blind">성능 및 장점</h2>
+            <!-- article>.inner>.txt>h2+p -->
+            <article> 
+                <div class="inner">
+                    <div class="txt">
+                        <h2>차량 사고 케어</h2>
+                        <p>상대방 과실로 내 차가 크게 파손됐다면?</p>
+                        <p>출고 후 1년 이내 차대차 사고 시 캐스퍼 신차로 교환해드립니다.</p>
+                    </div>
+                    <!-- figure>video -->
+                    <!-- figure - 영상, 그림, 도표  -->
+                    <figure>
+                        <!-- muted(음소거) loop(반복) -->
+                        <video src="./src/vid1.mp4" muted loop></video>
+                    </figure>
+                </div>
+            </article>
+            <article>
+                <div class="inner">
+                    <div class="txt">
+                        <h2>잠금 해제 시동</h2>
+                        <p>스마트폰으로 도어 잠금/해제 및 시동이 가능하고, 최대 7개 디바이스까지 사용 권한을 공유할 수 있습니다.</p>
+                    </div>
+                    <!-- figure>video -->
+                    <!-- figure - 영상, 그림, 도표  -->
+                    <figure>
+                        <!-- muted(음소거) loop(반복) -->
+                        <video src="./src/vid3.mp4" muted loop></video>
+                    </figure>
+                </div>
+            </article>
+            <article> 
+                <div class="inner">
+                    <div class="txt">
+                        <h2>페달 안전 보조</h2>
+                        <p>정차 또는 저속 주행 중 전/후방 장애물이 가까이 있을 때 운전자가 악셀 페달을 브레이크 페달로 오인하여 급조작하는 경우 가속 제한 및 긴급제동을 통해 충돌 피해를 경감시킵니다.</p>
+                        
+                    </div>
+                    <!-- figure>video -->
+                    <!-- figure - 영상, 그림, 도표  -->
+                    <figure>
+                        <!-- muted(음소거) loop(반복) -->
+                        <video src="./src/vid4.mp4" muted loop></video>
+                    </figure>
+                </div>
+            </article>
+        </section>
+        <aside>
+            <!-- .txt>h3+p+span -->
+            <div class="txt">
+                <h3>차량 사고 케어</h3>
+                        <p>상대방 과실로 내 차가 크게 파손됐다면?</p>
+                        <p>출고 후 1년 이내 차대차 사고 시 캐스퍼 신차로 교환해드립니다.</p>
+                <span>CLOSE</span>
+            </div>
+            <figure>                
+                <video src="./src/vid1.mp4" muted loop></video>
+            </figure>
+        </aside>
+    </div>
+</body>
+
+</html>
